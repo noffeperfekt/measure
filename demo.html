@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Measure Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto" rel="stylesheet">
+    <style>
+        html{
+            font-family: 'Roboto', sans-serif;
+            color: #B5D99C;
+            background-color: #364156
+        }
+        h1{text-transform: capitalize;}
+        code{
+            font-family: 'Cutive Mono', monospace;
+            display: inline-block;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        pre {
+            background-color: whitesmoke;
+            padding: 1em;
+            max-width: 100%;
+            white-space: pre-wrap;
+        }
+        code>h3{
+            background-color: rgb(110, 92, 144);
+            padding: .2em .5em;
+            display: inline-block;
+        }
+        .string { color: rgb(192, 121, 192); }
+        .number { color: rgb(211, 211, 83); }
+        .boolean { color: rgb(230, 95, 92); }
+        .null { color:rgb(110, 92, 144); }
+        .key { color:  rgb(159, 192, 135); }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <p class="description"></p>
+    <code></code>
+    <script src="dist/built.measure.js"></script>
+    <script src="demo.js"></script>
+</body>
+</html>

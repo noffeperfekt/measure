@@ -1,0 +1,22 @@
+{
+  "name": "measure",
+  "version": "0.5.0",
+  "description": "Measures the clients enviroment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server --cors -o",
+    "build": "npx webpack"
+  },
+  "keywords": [
+    "responsive",
+    "javascript"
+  ],
+  "author": "kristofer",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
