@@ -15,8 +15,8 @@
   "author": "kristofer",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
-    "http-server": "^0.11.1",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
+    "http-server": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
   }
 }
